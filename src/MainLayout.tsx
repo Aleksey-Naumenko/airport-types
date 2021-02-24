@@ -6,7 +6,7 @@ import { RootState } from "./types";
 import SearchField from "./flights/components/SearchField";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
-import MainPage from "./mainPage/components/mainPage";
+import MainPage from "./mainPage/components/MainPage";
 import HowToGet from "./howToGet/HowToGet";
 import CovidSection from "./mainPage/components/CovidSection";
 import Parking from "./parking/Parking";
