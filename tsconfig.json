@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "lib": ["es2015", "es6", "dom", "DOM.Iterable", "ScriptHost"],
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "noEmitOnError": true
+  },
+    "exclude": [
+      "node_modules"
+  ]
+}

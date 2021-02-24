@@ -1,0 +1,48 @@
+.accordion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  & .card {
+    width: 80%;
+    background-color: wheat;
+    cursor: pointer;
+
+    &:first-child {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    &:last-child {
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
+
+  &__body {
+    background-color: whitesmoke;
+    cursor: default;
+  }
+
+  &__icon {
+    color: #2ca5f0;
+    margin-right: 10px;
+  }
+}
+
+.panel {
+  cursor: pointer;
+
+  &__title {
+    margin: 0;
+  }
+}
+
+.active {
+  & .content {
+    display: block;
+  }
+}
+
+.content {
+  display: none;
+}
