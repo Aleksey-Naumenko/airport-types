@@ -55,7 +55,10 @@ module.exports = (env, argv) => {
     plugins: [
       new webpack.ProgressPlugin(),
       new CleanWebpackPlugin(),
-      new CopyPlugin([{ from: "_redirects", to: "" }]),
+      new CopyPlugin([
+        { from: "_redirects", to: "" },
+        { from: "images", to: "images" },
+      ]),
       new HtmlWebpackPlugin({
         template: "./src/index.html",
       }),
